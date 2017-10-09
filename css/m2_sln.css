@@ -36,6 +36,8 @@ width: 100%;
 .sclr2 {background-color: #7fffd4}
 .sclr3 {background-color: #fdeaea}
 
+/**.smrg {margin: 2px;}**/
+
 @media (min-width: 750px) {
 
 .lg-333 {
