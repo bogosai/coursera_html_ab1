@@ -54,7 +54,8 @@ body {
 #container {
 	/**margin-left: 110px;
 	margin-right: 110px; **/
-	padding-right: 40px;
+	padding-right: 15px;
+	padding-left: 15px;	
 }
 
 section {
