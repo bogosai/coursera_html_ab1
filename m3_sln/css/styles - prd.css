@@ -27,7 +27,7 @@ body {
 }
 .container {
 
-/**width: 100%;**/
+width: 100%;
 
 }
 
@@ -48,13 +48,6 @@ body {
 	margin: auto;
 	border: 2px;
 	background-color: #cecece;
-
-}
-
-#container {
-	/**margin-left: 110px;
-	margin-right: 110px; **/
-	padding-right: 40px;
 }
 
 section {
@@ -62,7 +55,6 @@ section {
 	vertical-align:center;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 100%;
 }
 
 
