@@ -12,7 +12,7 @@ body {
 .navbar {
 
 	background-color: #cecece;
-	min-height: 50px;
+	min-height: 70px;
 	border-radius: 0;
 	margin-bottom: 0px;
 	border: 1.1px solid #1c2d6b
@@ -84,10 +84,16 @@ font-weight: bold;
 
 #nav-list hr {
 	height: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-color: #1c2d6b;
 }
 
 #nav-list a {
 	color: #18110b;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	background-color: #cfe3d1;
 	
 }
 
@@ -97,3 +103,13 @@ font-weight: bold;
 }
 
 
+@media (max-width: 479px) {
+ 
+ 
+.navbar-brand span {
+
+	font-size: 6vw;
+
+}
+  
+}
