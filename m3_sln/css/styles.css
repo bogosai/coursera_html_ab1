@@ -11,38 +11,41 @@ body {
 
 .navbar {
 
-background-color: #cecece;
-width: 100%;
-height: 100px;
-padding: 0px;
-margin: 0px;
-border-radius: 0;
-
+	background-color: #cecece;
+	min-height: 50px;
+	border-radius: 0;
+	margin-bottom: 0px;
+	border: 1.1px solid #1c2d6b
 }
 
+
+
+.navbar-brand span {
+	color:#18110b;
+	font-size: 1.5em;
+	font-weight: bold;
+}
 .container {
 
 width: 100%;
-padding: 0px;
-margin: 10px;
 
 }
 
+
 .page-title {
-	margin: 40px;	
-	padding: 10px 20px 10px 20px;
-	width: 938px; 
-	margin: 10px 20px 10px 20px;
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
 	border: 2px;
-	font-size: 2em;
+	font-size: 1.4em;
+	font-weight: bold;
 }
 
 .block {
 	
-	margin: 40px;	
-	padding: 10px 20px 10px 20px;
-	width: 938px; 
-	margin: 10px 20px 10px 20px;
+	
+	/*padding: 10px 20px 10px 20px;**/
+	margin: auto;
 	border: 2px;
 	background-color: #cecece;
 }
@@ -54,17 +57,43 @@ section {
 	margin-bottom: 10px;
 }
 
-.block-border {
 
-	border: 2px solid #1c2d6b;
+.block-title {
+	margin-top: 3px;
+}
+
+.block-title > span {
+padding: 10px;
+font-size: 1.1em;
+font-weight: bold;
 }
 
 .text-block {
-
 	
-	top: 0px;
+	padding: 10px 20px 20px 20px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+#collapsable-nav {
+	padding:0px;
 }
+
+#nav-list {
+	border: .8px solid #1c2d6b;
+	margin: 0px;
+}
+
+#nav-list hr {
+	height: 1px;
+}
+
+#nav-list a {
+	color: #18110b;
+	
+}
+
+
+#nav-list a:hover {
+	background: #f6f5fb;
+}
+
+
