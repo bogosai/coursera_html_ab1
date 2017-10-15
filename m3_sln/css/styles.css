@@ -16,6 +16,8 @@ body {
 	border-radius: 0;
 	margin-bottom: 0px;
 	border: 1.1px solid #1c2d6b
+
+	position: relative;
 }
 
 
@@ -24,6 +26,8 @@ body {
 	color:#18110b;
 	font-size: 1.5em;
 	font-weight: bold;
+	position: absolute;
+	left: 10px;
 }
 .container {
 
